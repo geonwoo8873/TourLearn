@@ -29,11 +29,11 @@ GitHub에서는 다양한 플랜의 제공하는 제품들이 다음과 같다.
         * 매월 2,000분과 퍼블릭 리포지토리에 대한 배포 보호 규칙을 적용한 GitHub Actions
 * GitHub Pro
     * GitHub Free에서 고급 인사이트 기능과 프라이빗 협력자를 협업가능으로 구성된 제품이다.
-        * 전자 메일을 통한 GitHub 지원
-        * 매월 3,000분의 GitHub Actions
-        * 2GB GitHub Package 스토리지
-        * 매월 180분의 GitHub Codespaces 코어와 20G GitHub Codespaces 스토리지
-        * 프라이빗 리포지토리의 고급 도구 및 인사이트
+      * 전자 메일을 통한 GitHub 지원
+      * 매월 3,000분의 GitHub Actions
+      * 2GB GitHub Package 스토리지
+      * 매월 180분의 GitHub Codespaces 코어와 20G GitHub Codespaces 스토리지
+      * 프라이빗 리포지토리의 고급 도구 및 인사이트
             * 끌어오기 요청 검토자 필요
             * 여러 끌어오기 요청 검토자
             * 보호된 분기
@@ -59,3 +59,10 @@ GitHub에서는 다양한 플랜의 제공하는 제품들이 다음과 같다.
         * 인사이트 리포지토리 그래프()
 
 * GitHub Enterprise
+    * 대규모 조직에 대해 향상된 지원, 보안, 규정 준수 기능 및 고급 배포 제어를 제공한다. Enterprise에 등록할 때 전용 계정을 생성하고 그에 따른 소유자는 여러 조직을 관리하고, 관리자 액세스를 제어하며 전체 기업에서 일관된 보안 정책을 적용할 수 있다.
+        * 전용 Enterprise 지원
+        * 보안 및 규정 준수과 배포 기능
+        * 외부 ID 공급자를 통한 중앙 집중식 사용자 인증 및 관리
+        * 프라이빗 또는 내부 리포지토리에 대한 배포 보호 규칙
+        * GitHub Enterprise Server와 Cloud 간에 선택한 데이터를 안전하게 공유할 수 있는 GitHub Connect를 통해 통합 기여, 중앙 집중식 사용자 ID 및 환경 전반의 가시성 향상
+        * 향상된 코드 및 중속성 보호를 위해 GitHub Advanced Security 구해 옵션
