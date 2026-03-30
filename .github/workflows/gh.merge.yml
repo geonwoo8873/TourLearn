@@ -4,6 +4,8 @@ on:
     push:
         branches: ['gh']
 
+permissions:
+  contents: write
 
 jobs:
     push:
