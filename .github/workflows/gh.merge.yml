@@ -1,0 +1,25 @@
+name: GitHub Credentials Merge Actions
+
+on:
+    push:
+        branches: ['gh']
+
+
+jobs:
+    push:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Branche
+              uses: actions/checkout@v4
+            
+            - name: Configure Git
+              run: |
+                  git config user.name "ChoiGunWoo"
+                  git config user.email "
+
+            - name: Merge into main
+              run: |
+                  git fetch origin main gh
+                  git checkout -B main origin/main
+                  git merge --no-ff --no-edit origin/gh
+                  git push origin main
