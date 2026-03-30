@@ -1,0 +1,29 @@
+name: GitHub Credentials Merge Actions
+
+on:
+    push:
+        branches: ['net']
+
+permissions:
+  contents: write
+
+jobs:
+    push:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Branch
+              uses: actions/checkout@v4
+              with: 
+                fetch-depth: 0
+            
+            - name: Configure Git
+              run: |
+                  git config user.name "ChoiGunWoo"
+                  git config user.email "gunwoo8873@outlook.kr"
+
+            - name: Merge into main
+              run: |
+                  git fetch origin main net
+                  git checkout -B main origin/main
+                  git merge --allow-unrelated-histories --no-ff --no-edit origin/net
+                  git push origin main

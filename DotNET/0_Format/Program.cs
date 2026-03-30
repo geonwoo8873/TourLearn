@@ -4,7 +4,6 @@ class Program
 {
     private const string Line = "------------------------------";
 
-
     static void UpperFormat()
     {
         string str = "This is a string.";
