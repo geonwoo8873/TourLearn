@@ -1,10 +1,12 @@
+# DotNET project in the build root directories
 **/bin
 **/obj
 
+# Ignore IDE in the root directory
 .vs/
 .vscode/
 
-
+#[Test] Ignore the following directories in the root directory
 DotNET/
 AZ-Credential/
 Linux/
