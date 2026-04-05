@@ -1,0 +1,2 @@
+# main branch local ignores
+Linux/.main-local/

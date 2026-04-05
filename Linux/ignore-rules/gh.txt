@@ -1,0 +1,3 @@
+# gh branch local ignores
+Linux/.gh-cache/
+Linux/.gh-temp/

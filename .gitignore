@@ -7,6 +7,6 @@
 .vscode/
 
 #[Test] Ignore the following directories in the root directory
-DotNET/
-AZ-Credential/
-Linux/
+# DotNET/
+# AZ-Credential/
+# Linux/

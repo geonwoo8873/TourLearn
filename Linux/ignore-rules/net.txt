@@ -1,0 +1,3 @@
+# net branch local ignores
+Linux/.net-cache/
+Linux/.net-temp/
